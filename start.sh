@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "╔══════════════════════════════════════════════════════════════╗"
-echo "║  Kafka Airline Booking - Ordering Problem Demo Startup      ║"
+echo "║  Kafka Airline Booking - Ordering Problem Demo Startup       ║"
 echo "╚══════════════════════════════════════════════════════════════╝"
 echo ""
 
