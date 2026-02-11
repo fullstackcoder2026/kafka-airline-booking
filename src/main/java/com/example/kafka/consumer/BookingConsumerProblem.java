@@ -47,7 +47,7 @@ public class BookingConsumerProblem {
         String bookingId = event.getBookingId();
         Integer currentSeq = event.getSequenceNumber();
         
-        log.info("📥 PROBLEM CONSUMER - Received from partition {}: {}", 
+        log.info("PROBLEM CONSUMER - Received from partition {}: {}",
                 record.partition(), event);
 
         // Check for ordering issues

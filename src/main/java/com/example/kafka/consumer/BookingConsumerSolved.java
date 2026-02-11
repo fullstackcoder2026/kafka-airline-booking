@@ -48,7 +48,7 @@ public class BookingConsumerSolved {
         String bookingId = event.getBookingId();
         Integer currentSeq = event.getSequenceNumber();
         
-        log.info("📥 SOLUTION CONSUMER - Received from partition {} (Key={}): {}", 
+        log.info("SOLUTION CONSUMER - Received from partition {} (Key={}): {}",
                 record.partition(), record.key(), event);
 
         // Verify ordering
